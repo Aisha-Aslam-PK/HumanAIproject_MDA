@@ -1,0 +1,7 @@
+"Variable","Raw_Statistic_W","Raw_P_Value","Pub_Statistic_W","Pub_P_Value","Method"
+"D1",0.891005297271448,5.01377270539785e-17,0.891,"<0.001","Shapiro-Wilk normality test"
+"D2",0.854954398934888,1.27010308368361e-19,0.855,"<0.001","Shapiro-Wilk normality test"
+"D3",0.976603072502805,1.83709900303115e-06,0.977,"<0.001","Shapiro-Wilk normality test"
+"D4",0.930806114399673,2.61713971210513e-13,0.931,"<0.001","Shapiro-Wilk normality test"
+"D5",0.976352796846687,1.62443118376978e-06,0.976,"<0.001","Shapiro-Wilk normality test"
+"D6",0.807298339986922,2.10999668561416e-22,0.807,"<0.001","Shapiro-Wilk normality test"

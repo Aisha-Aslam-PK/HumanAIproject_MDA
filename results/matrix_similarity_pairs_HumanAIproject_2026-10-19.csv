@@ -1,0 +1,7 @@
+Method,Comparison,r,Mantel_p
+pearson,GPT vs Humanised,0.796,1e-4
+pearson,GPT vs Student,0.322,1e-4
+pearson,Humanised vs Student,0.331,1e-4
+spearman,GPT vs Humanised,0.777,1e-4
+spearman,GPT vs Student,0.306,1e-4
+spearman,Humanised vs Student,0.313,1e-4

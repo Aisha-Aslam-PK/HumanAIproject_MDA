@@ -1,0 +1,7 @@
+Method,Register,Mean_r,CI_low,CI_high,SB_corrected
+pearson,LOCNESS_GPT,0.435,0.39,0.477,0.607
+pearson,LOCNESS_Humanised,0.45,0.405,0.494,0.621
+pearson,LOCNESS_Human,0.381,0.335,0.426,0.552
+spearman,LOCNESS_GPT,0.426,0.377,0.47,0.597
+spearman,LOCNESS_Humanised,0.436,0.391,0.479,0.608
+spearman,LOCNESS_Human,0.349,0.305,0.391,0.517

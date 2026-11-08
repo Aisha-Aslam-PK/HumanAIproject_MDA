@@ -1,0 +1,7 @@
+﻿Dimension,chi_sq,df,p,Kendall_W,GPT_vs_Student_V,GPT_vs_Student_p_adj,GPT_vs_Student_r,GPT_vs_Humanised_V,GPT_vs_Humanised_p_adj,GPT_vs_Humanised_r,Student_vs_Humanised_V,Student_vs_Humanised_p_adj,Student_vs_Humanised_r
+D1 Informational density vs stance modality,236.06,2,<.001,.820,0,<.001,.87,8795,<.001,.59,10440,<.001,.87
+D2 Personal–experiential involvement,137.60,2,<.001,.478,292,<.001,.82,1107,<.001,.68,9095,<.001,.64
+D3 Narrative specificity vs evaluative elaboration,3.04,2,.219,.011,,,,,,,,,
+D4 Communicative attribution vs event occurrence,19.62,2,<.001,.068,3357,<.001,.31,6582,.007,.23,7560,<.001,.39
+D5 Comparative/quantitative emphasis,16.00,2,<.001,.056,4547,.270,.11,2944,<.001,.37,4913,.541,.05
+D6 Collective technical stance,27.50,2,<.001,.095,3193,<.001,.34,3293,.013,.22,6589,.010,.23

@@ -1,0 +1,45 @@
+"Dimension","Tag","Feature","Pole_label","LOCNESS_GPT","LOCNESS_Humanised","LOCNESS_Human","GPT_to_Humanised","Shift_on_dimension","Gap_closed"
+"D1","NNABSPROC","Abstract/process nouns","negative",6.55145,7.03835,3.35285,0.486899999999999,"towards negative pole",-0.152222847495779
+"D1","PASS","Passive voice","positive",0.8293,0.49765,1.63265,-0.33165,"towards negative pole",-0.412833758635713
+"D1","CC","Coordinating conjunctions","negative",5.66105,5.9406,4.00205,0.27955,"towards negative pole",-0.168505123568415
+"D1","QUAN","Quantifiers","positive",0.65715,0.89165,2.0065,0.2345,"towards positive pole",0.17378737910846
+"D1","MDWS","Modals will/shall","positive",0,0.1854,0.30625,0.1854,"towards positive pole",0.605387755102041
+"D1","CAUSE","Facilitation and causative verbs","negative",0.6711,0.83945,0.34015,0.16835,"towards negative pole",-0.508687112856927
+"D1","VBG","Present participle/gerund","negative",2.54795,2.6966,1.4499,0.14865,"towards negative pole",-0.135376348982287
+"D1","XX0","Negation","positive",0.3728,0.25645,0.9566,-0.11635,"towards negative pole",-0.199297704693388
+"D1","PIT","Pronoun it","positive",0.90495,1.0191,1.51865,0.11415,"towards positive pole",0.186002933029167
+"D1","JJAT","Attributive adjectives","negative",8.9917,8.9105,5.07575,-0.0811999999999991,"towards positive pole",0.0207357090871944
+"D1","NCOMP","Noun compounds","negative",3.82495,3.7976,1.8519,-0.0273500000000002,"towards positive pole",0.013861787587745
+"D1","TTR","Type-token ratio","negative",0.6667,0.6867,0.6333,0.02,"towards negative pole",-0.598802395209582
+"D1","SPLIT","Split auxiliaries and infinitives","positive",0.47505,0.4556,0.7968,-0.01945,"towards negative pole",-0.0604506604506604
+"D1","LDE","Lexical density","negative",0.5726,0.5913,0.4562,0.0186999999999999,"towards negative pole",-0.160652920962199
+"D1","RB","Adverbs","positive",1.24385,1.25,2.03025,0.00614999999999988,"towards positive pole",0.00782044760935895
+"D1","THRC","That-relative clauses","negative",0.47505,0.47845,0.16,0.00340000000000007,"towards negative pole",-0.010791937787653
+"D1","MDWO","Modal would","positive",0,0,0.5835,0,"no change",0
+"D1","CUZ","Causal conjunctions","positive",0,0,0.2407,0,"no change",0
+"D1","COND","Conditional subordination","positive",0,0,0.3774,0,"no change",0
+"D1","RFACT","Factive adverbs","positive",0,0,0.14425,0,"no change",0
+"D1","EX","Existential there","positive",0,0,0.4094,0,"no change",0
+"D1","ABLE","Semi-modal be able to","positive",0,0,0,0,"no change",NA
+"D1","HDG","Hedges","positive",0,0,0,0,"no change",NA
+"D1","DWNT","Downtoners","positive",0,0,0.29855,0,"no change",0
+"D1","DMA","Discourse markers","positive",0,0,0,0,"no change",NA
+"D2","NNHUMAN","Human-reference nouns","positive",0.9175,1.1765,1.4303,0.259,"towards positive pole",0.505070202808113
+"D2","MENTAL","Mental verbs","positive",0.60425,0.853,1.3446,0.24875,"towards positive pole",0.335989734584994
+"D2","ASPECT","Aspectual verbs","positive",0.2041,0.2404,0.21075,0.0363,"towards positive pole",5.45864661654136
+"D2","PP2","2nd person pronouns","positive",0,0,0,0,"no change",NA
+"D2","PP1S","1st person singular pronouns","positive",0,0,0.23155,0,"no change",0
+"D2","PLACE","Place adverbials","positive",0,0,0.19325,0,"no change",0
+"D2","QUPR","Quantifying pronouns","positive",0,0,0.16235,0,"no change",0
+"D2","ToVDSR","To-clauses after verbs of desire","positive",0,0,0,0,"no change",NA
+"D2","THATD","That-deletion","positive",0,0,0,0,"no change",NA
+"D2","DOAUX","Do as pro-verb/auxiliary","positive",0,0,0.181,0,"no change",0
+"D4","OCCUR","Occurrence verbs","negative",0.43435,0.65645,0.5764,0.2221,"towards negative pole",1.56353396691306
+"D4","COMM","Communication verbs","positive",0.4902,0.69215,0.6296,0.20195,"towards positive pole",1.4487087517934
+"D4","THSC","That-clauses (non-relative)","positive",0.2252,0.22805,0.87105,0.00284999999999999,"towards positive pole",0.00441278934737167
+"D4","ThVCOMM","Communication verb + that-clause","positive",0,0,0.13195,0,"no change",0
+"D5","MDNE","Necessity modals","negative",0.0947,0.2358,0.43275,0.1411,"towards negative pole",0.417393876645467
+"D5","COMPAR","Comparatives","positive",0.5952,0.7071,0.4587,0.1119,"towards positive pole",-0.819780219780221
+"D5","NNQUANT","Quantifying nouns","positive",0.6369,0.71955,0.7409,0.08265,"towards positive pole",0.794711538461539
+"D5","JJSIZE","Size adjectives","positive",0.18765,0.2331,0.2251,0.04545,"towards positive pole",1.21361815754339
+"D5","EMPH","Emphatics","positive",0.2275,0.2584,0.43985,0.0309,"towards positive pole",0.145514480809984

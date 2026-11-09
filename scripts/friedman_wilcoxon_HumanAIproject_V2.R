@@ -1,10 +1,10 @@
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/uqaasla1/OneDrive - The University of Queensland (1)/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
-install.packages("readr")
-install.packages("dplyr")
-install.packages("stringr")
-install.packages("tidyr")
-install.packages("rstatix")
-install.packages("coin")
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
+# install.packages("readr")
+# install.packages("dplyr")
+# install.packages("stringr")
+# install.packages("tidyr")
+# install.packages("rstatix")
+# install.packages("coin")
 library(readr)
 library(dplyr)
 library(stringr)
@@ -306,4 +306,4 @@ print(as_tibble(table4), width = Inf)
 write_excel_csv(table4, "Table4_HumanAIproject_V2.csv")  # opens in Excel with χ², minus signs and dashes intact
 
 # Closing sessionInfo moved here so packages loaded in steps 7-8 (e.g., coin) are captured
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/uqaasla1/OneDrive - The University of Queensland (1)/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_end_", Sys.Date(), ".txt"))

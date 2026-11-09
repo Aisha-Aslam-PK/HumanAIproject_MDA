@@ -1,4 +1,4 @@
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 library(readr)
 library(readxl)
@@ -6,7 +6,7 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(multcompView)
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 # ==============================================================================
 #  Boxplots for all six dimensions
@@ -18,7 +18,7 @@ writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The 
 # - A caption for every figure (with the Friedman result) is saved to a .txt file.
 
 # --- 1. Files (edit names as needed) ------------------------------------------
-scores_file    <- "dimension_scores_HumanAIproject_v2.csv"
+scores_file    <- "dimension_scores_HumanAIproject_V2.csv"
 crosswalk_file <- "item_crosswalk_HumanAIproject.csv"
 friedman_file  <- "friedman_DIMENSIONS_HumanAIproject_V2.csv"
 wilcoxon_file  <- "wilcoxon_posthoc_DIMENSIONS_HumanAIproject_V2.csv"

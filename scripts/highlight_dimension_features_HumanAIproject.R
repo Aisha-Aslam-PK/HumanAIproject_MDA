@@ -1,4 +1,4 @@
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 library(officer)
 library(stringr)
@@ -108,4 +108,4 @@ for (d in dims_to_highlight) {
 }
 
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_end_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_end_", Sys.Date(), ".txt"))

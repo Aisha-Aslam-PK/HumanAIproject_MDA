@@ -3,7 +3,7 @@ library(tidyr)
 library(stringr)
 library(readr)
 
-all_files <- read_csv("EFA_ready_with_register_HumanAIproject.csv") %>%
+all_files <- read_csv("EFA-readyHumanAIprojectRegistersADDED_V2.csv") %>%
   select(filename, Register)
 
 
@@ -46,7 +46,7 @@ print(crosswalk_check)  # rows where any register ≠ 1 need manual attention
 write_csv(parsed, "item_crosswalk_HumanAIproject.csv")
 
 incomplete_items <- crosswalk_check %>%
-  filter(GPTcorpus != 1 | Humanisedcorpus != 1 | Human_LOCNESS != 1)
+  filter(LOCNESS_GPT != 1 | LOCNESS_Humanised != 1 | LOCNESS_Human != 1)
 print(incomplete_items)
 
 write_csv(parsed, "item_crosswalk_HumanAIproject.csv")

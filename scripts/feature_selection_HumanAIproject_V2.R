@@ -7,15 +7,15 @@ library(dplyr)
 # --- 1. Load the three separately-tagged corpora -----------------------------
 # Register label added to each corpus as it is read (the MFTE output has no Register column)
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 #combine three files-----------------
 packageVersion("psych")
 
 packageVersion("caret")
-corpus_A <- read_csv("GPTcorpus_normed.csv")      %>% mutate(Register = "GPTcorpus")
-corpus_B <- read_csv("Humaisedcorpus_normed.csv") %>% mutate(Register = "Humanisedcorpus")
-corpus_C <- read_csv("Human_LOCNESS_normed.csv")  %>% mutate(Register = "Human_LOCNESS")
+corpus_A <- read_csv("GPTcorpus_normed.csv")      %>% mutate(Register = "LOCNESS_GPT")
+corpus_B <- read_csv("Humanisedcorpus_normed.csv") %>% mutate(Register = "LOCNESS_Humanised")
+corpus_C <- read_csv("Human_LOCNESS_normed.csv")  %>% mutate(Register = "LOCNESS_Human")
 
 # sanity check columns match before binding
 setdiff(names(corpus_A), names(corpus_B))
@@ -120,4 +120,4 @@ efa_ready_with_register <- cbind(
 )
 write_csv(efa_ready_with_register, "EFA-readyHumanAIprojectRegistersADDED_V2.csv")
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_end_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_end_", Sys.Date(), ".txt"))

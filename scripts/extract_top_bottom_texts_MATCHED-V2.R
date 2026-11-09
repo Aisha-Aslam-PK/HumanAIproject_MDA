@@ -4,7 +4,7 @@ library(readr)
 
 
 # --- Load required files and rebuild the matched dataset ----------------------
-dim_scores <- read_csv("dimension_scores_HumanAIproject.csv")
+dim_scores <- read_csv("dimension_scores_HumanAIproject_V2.csv")
 parsed <- read_csv("item_crosswalk_HumanAIproject.csv")
 
 dim_scores_matched <- dim_scores %>%
@@ -42,4 +42,4 @@ top_bottom_all <- bind_rows(top_bottom_list) %>%
   select(Dimension, Position, filename, Register, item_id, Score)
 
 print(top_bottom_all)
-write.xlsx(top_bottom_all, "top_bottom5_by_dimension_MATCHED_HumanAIproject.xlsx")
+write.xlsx(top_bottom_all, "top_bottom5_by_dimension_MATCHED_HumanAIproject_V2.xlsx")

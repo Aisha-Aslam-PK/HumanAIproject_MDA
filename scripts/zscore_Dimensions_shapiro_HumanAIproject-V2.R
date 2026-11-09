@@ -1,7 +1,7 @@
 library(readr)
 library(readxl)
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 # --- Load the EFA-ready pooled dataset ---------------------------------------
 raw_normalized <- read.csv("EFA-readyHumanAIprojectRegistersADDED_V2.csv")

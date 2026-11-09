@@ -1,4 +1,4 @@
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 # RQ3: does humanised text keep the feature co-occurrence structure of GPT text?
 # Uses the 144 matched triplets. For each register a feature-by-feature correlation
@@ -208,4 +208,4 @@ write_csv(pair_all,  paste0("matrix_similarity_pairs_HumanAIproject_",       run
 write_csv(diff_all,  paste0("matrix_similarity_differences_HumanAIproject_", run_date, ".csv"))
 write_csv(split_all, paste0("matrix_similarity_splithalf_HumanAIproject_",   run_date, ".csv"))
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_end_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_end_", Sys.Date(), ".txt"))

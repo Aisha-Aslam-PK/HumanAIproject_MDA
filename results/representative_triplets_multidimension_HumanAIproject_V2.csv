@@ -1,0 +1,14 @@
+item_id,n_dims_top10,dims_top10,mean_rank,file_LOCNESS_GPT,file_LOCNESS_Humanised,file_LOCNESS_Human
+vitro_24,3,"D1, D2, D4",31.2,Vitro24.txt,Vitro24.txt,Vitro24.txt
+vitro_17,2,"D1, D5",36.8,Vitro17.txt,Vitro17.txt,Vitro17.txt
+boxing_6,2,"D4, D5",37.2,Boxing6.txt,Boxing6.txt,Boxing6.txt
+computerandlife_8,2,"D1, D6",39.2,Computerandlife8.txt,Computerandlife8.txt,computer8.txt
+europe_4,2,"D2, D4",45.4,Europe4.txt,Europe4.txt,Europe4.txt
+europe_23,2,"D1, D4",45.6,Europe23.txt,Europe23.txt,Europe23.txt
+transport_7,2,"D2, D4",46,Transportation7.txt,Transport7.txt,Transportation7.txt
+europe_5,2,"D2, D5",47,Europe5.txt,Europe5.txt,Europe5.txt
+europe_3,2,"D5, D6",49.4,Europe3.txt,Europe3.txt,Europe3.txt
+parliament_2,2,"D1, D5",51.6,Parliamentarysystem2.txt,Parliament2.txt,Parliamentary2.txt
+europe_20,2,"D4, D5",52,Europe20.txt,Europe20.txt,Europe20.txt
+fox_2,2,"D2, D6",54,Fox hunting2.txt,Fox2.txt,Fox hunting2.txt
+vitro_7,2,"D4, D6",77.2,Vitro7.txt,Vitro7.txt,Vitro7.txt

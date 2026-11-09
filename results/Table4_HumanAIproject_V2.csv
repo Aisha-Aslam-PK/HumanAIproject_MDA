@@ -1,0 +1,7 @@
+﻿"Dimension","Friedman χ²(2)","W","Mdn GPT-4","Mdn humanized","Mdn student","GPT-4 vs student, r","GPT-4 vs humanized, r","Humanized vs student, r"
+"D1 Informational density vs stance modality","236.06",".82","−7.94","−10.05","18.78",".87***",".59***",".87***"
+"D2 Personal–experiential involvement","137.60",".48","−3.31","−1.38","2.36",".82***",".68***",".64***"
+"D3 Narrative specificity vs possibility/evaluation","3.04 (p = .219)",".01","1.06","1.18","−0.56","–","–","–"
+"D4 Communicative attribution vs event occurrence","19.62",".07","−0.98","−1.23","0.65",".31***",".23**",".39***"
+"D5 Comparative/quantitative emphasis vs necessity","16.00",".06","−0.70","−0.13","−0.42",".11 ns",".37***",".05 ns"
+"D6 Collective technical stance","27.50",".10","−1.00","−0.90","−0.06",".34***",".22*",".23**"

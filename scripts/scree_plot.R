@@ -1,4 +1,4 @@
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 # Scree plot from JASP's Parallel Analysis table
 # Real-data vs simulated-data eigenvalues, built with ggplot2
@@ -11,7 +11,7 @@ library(dplyr)
 
 # ---- 1. Read the table copied from JASP ----
 # Edit this path to where the CSV is saved
-csv_path <- "C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/Parellel Analysis table for screeplot.csv"
+csv_path <- "Parellel Analysis table for screeplot.csv"
 
 # Excel often saves CSVs in a Windows encoding, not UTF-8, so detect it
 enc <- guess_encoding(csv_path)$encoding[1]
@@ -90,4 +90,4 @@ print(scree)
 ggsave(file.path(dirname(csv_path), "scree_plot.png"),
        scree, width = 7, height = 5, dpi = 300)
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_end_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_end_", Sys.Date(), ".txt"))

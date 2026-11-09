@@ -1,4 +1,4 @@
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_", Sys.Date(), ".txt"))
 
 library(readr)
 library(dplyr)
@@ -122,4 +122,4 @@ if (nrow(multi_dim) == 0) {
 
 write.csv(multi_dim, "representative_triplets_multidimension_HumanAIproject_V2.csv", row.names = FALSE)
 
-writeLines(capture.output(sessionInfo()), paste0("C:/Users/miss_/OneDrive - The University of Queensland/PhD/side-project/sessionInfo_end_", Sys.Date(), ".txt"))
+writeLines(capture.output(sessionInfo()), paste0("sessionInfo_end_", Sys.Date(), ".txt"))
